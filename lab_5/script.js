@@ -107,4 +107,4 @@ applyTheme();
 
 setTimeout(() => {
     document.getElementById('contactModal').style.display = 'block';
-}, 60000);
+}, 59999);
