@@ -67,7 +67,7 @@ const closeBtn = document.querySelector('.close-button');
 
 setTimeout(() => {
     modal.style.display = 'block';
-}, 3000); 
+}, 60000); 
 
 closeBtn.onclick = function() {
     modal.style.display = 'none';
