@@ -73,10 +73,26 @@ h2 {
 }
 
 .exp-item {
+    background-color: #eef7fd;
+    padding: 20px;
+    border-radius: 12px;
     margin-bottom: 20px;
-    font-size: 15px;
+    border: 1px solid #d1e3f0;
     line-height: 1.6;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-size: 15px;
 }
+
+.exp-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(90, 125, 154, 0.1);
+}
+
+.exp-item p strong {
+    color: #2d3748;
+    font-size: 17px;
+}
+
 
 .skill {
     margin-bottom: 15px;
@@ -222,9 +238,9 @@ body.dark-mode {
 
     body.dark-mode .exp-item {
         background-color: #252525;
-        padding: 15px;
-        border-radius: 8px;
-        margin-bottom: 15px;
+        padding: 20px; 
+        border-radius: 12px;
+        margin-bottom: 20px;
         border: 1px solid #333 !important;
     }
 
