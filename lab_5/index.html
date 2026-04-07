@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме - Ігор Березюк</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-switch-wrapper">
+        <span class="mode-label">🌙</span>
+        <label class="switch">
+            <input type="checkbox" id="checkbox">
+            <span class="slider round"></span>
+        </label>
+        <span class="mode-label">☀️</span>
+    </div>
+    <div class="container">
+    <aside class="sidebar">
+        <div class="container">
+    <aside class="sidebar">
+        <div class="profile-circle">
+            <img src="me.jpg" alt="Фото" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
+        </div>
+        
+        <section>
+            <h3>Про себе</h3>
+            <p>Студент кафедри кібербезпеки. Фокусуюся на захисті інформації, розробці безпечних веб-додатків та адмініструванні мереж.</p>
+        </section>
+
+        <section>
+            <h3>Контакти</h3>
+            <p>Email: <a href="mailto:ihor.bereziuk.kb.2024@lpnu.ua">ihor.bereziuk.kb.2024@lpnu.ua</a></p>
+        </section>
+    </aside>
+
+    <main class="main-content">
+        <header>
+            <h1>Ігор Березюк</h1>
+            <p class="subtitle">Cyber Security Student | Junior Developer</p>
+        </header>
+
+        <section>
+            <h2>Досвід та проекти</h2>
+            
+            <div class="exp-item">
+                <p><strong>Проектування корпоративних мереж (Cisco Packet Tracer)</strong></p>
+                <p>Розробка топологій мереж, налаштування маршрутизації OSPF, конфігурація VPN-тунелів та GRE для захищеного зв'язку.</p>
+            </div>
+
+            <div class="exp-item">
+                <p><strong>Веб-розробка (PHP, MySQL)</strong></p>
+                <p>Створення системи керування контентом для сайту комп'ютерної техніки. Реалізація авторизації, розподілу ролей та роботи з БД через XAMPP.</p>
+            </div>
+
+            <div class="exp-item">
+                <p><strong>Розробка ПЗ (Python, C#)</strong></p>
+                <p>Написання скриптів для автоматизації завдань на Python та розробка десктопних додатків на C# (WinForms).</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Технічні навички</h2>
+            <div class="skill"><span>Python / C#</span><div class="bar"><div class="fill" style="width: 75%;"></div></div></div>
+            <div class="skill"><span>Cisco Networking</span><div class="bar"><div class="fill" style="width: 85%;"></div></div></div>
+            <div class="skill"><span>PHP / MySQL</span><div class="bar"><div class="fill" style="width: 70%;"></div></div></div>
+        </section>
+
+        <section id="reviews-section">
+            <h2>Відгуки попередніх роботодавців</h2>
+            <div id="comments-container">
+                <p>Завантаження відгуків...</p>
+            </div>
+        </section>
+    </main>
+</div>
+    <footer id="main-footer" style="text-align: center; padding: 20px; background: #f8fbff; border-top: 1px solid #edf2f7; margin-top: 20px;">
+    <h3>Технічна інформація про сесію:</h3>
+    <div id="storage-info">
+        </div>
+    </footer>
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Зворотній зв'язок</h2>
+            <form action="https://formspree.io/f/xdapzpkl" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Ваше ім'я" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Ваш email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phone" placeholder="Номер телефону" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Ваше повідомлення" rows="4"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Відправити</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
